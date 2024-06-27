@@ -1,0 +1,231 @@
+// Import font
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+// Variable
+$black: #263238;
+$d_grey: #4d4d4d;
+$grey: #717171;
+$l_grey: #89939e;
+$grey_blue: #abbed1;
+$silver: #f5f7fa;
+$white: #ffffff;
+
+$bg: #f5f7fa;
+
+$primary: #4caf4f;
+$secondary: #263238;
+$info: #2194f3;
+
+$shade1: #43a046;
+$shade2: #388e3b;
+$shade3: #237d31;
+$shade4: #1b5e1f;
+$shade5: #103e13;
+
+$tint1: #66bb69;
+$tint2: #81c784;
+$tint3: #a5d6a7;
+$tint4: #c8e6c9;
+$tint5: #e8f5e9;
+
+$warning: #fbc02d;
+$error: #e53835;
+$success: #2e7d31;
+
+// HEADER
+
+div.header {
+  width: 100%;
+  background: $white;
+  box-shadow: 1px 1px 10px 2px $grey_blue;
+  padding: 20px 160px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+div.logo {
+  width: 155px;
+  height: 24px;
+  background-image: url("Logo.png");
+  background-repeat: no-repeat;
+}
+
+div.menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+div.menu > ul.navbar {
+  display: flex;
+  gap: 50px;
+  color: #4d4d4d;
+  font-weight: 500;
+}
+
+div.menu > ul.navbar > li {
+  cursor: pointer;
+}
+
+div.menu > button {
+  width: 180px;
+  border: none;
+  background-color: $primary;
+  color: $white;
+  font-size: small;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+// HERO
+
+div.hero {
+  height: 100vh;
+  background-color: $bg;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 70px;
+}
+
+div.hero > div.frame {
+  box-sizing: border-box;
+  padding-left: 240px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 50%;
+}
+
+div.frame > h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: $d_grey;
+}
+
+div.frame > h1 > span {
+  display: block;
+  color: $primary;
+  margin-top: 6px;
+}
+
+div.frame > p {
+  color: $grey;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+div.frame > button {
+  border: none;
+  background-color: $primary;
+  padding: 16px 32px;
+  color: $white;
+  border-radius: 5px;
+  margin: 14px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+div.hero-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+div.illustration {
+  width: 274px;
+  height: 284px;
+  text-align: center;
+  background-image: url("Illustration.png");
+  background-repeat: no-repeat;
+}
+
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+}
