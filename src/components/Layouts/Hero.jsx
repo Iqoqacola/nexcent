@@ -11,7 +11,7 @@ export const Hero = () => {
               Where to grow your business as a photographer: site or social
               media?
             </p>
-            <button>Register</button>
+            <button className="btn">Register</button>
           </div>
           <div className="hero-image">
             <div className="illustration"></div>

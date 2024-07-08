@@ -32,6 +32,21 @@ $warning: #fbc02d;
 $error: #e53835;
 $success: #2e7d31;
 
+div.container {
+  margin-top: 35px;
+}
+
+button.btn {
+  border: none;
+  background-color: $primary;
+  padding: 16px 32px;
+  color: $white;
+  border-radius: 5px;
+  margin: 14px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 // HEADER
 
 div.header {
@@ -122,17 +137,6 @@ div.frame > p {
   font-size: 14px;
 }
 
-div.frame > button {
-  border: none;
-  background-color: $primary;
-  padding: 16px 32px;
-  color: $white;
-  border-radius: 5px;
-  margin: 14px 0;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 div.hero-image {
   width: 50%;
   display: flex;
@@ -145,6 +149,349 @@ div.illustration {
   text-align: center;
   background-image: url("Illustration.png");
   background-repeat: no-repeat;
+}
+
+//CLIENTS
+
+div.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+div.clients > h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: $d_grey;
+}
+
+div.clients > p {
+  color: $grey;
+}
+
+div.clients-logo {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 130px;
+  padding: 25px;
+}
+
+//COMMUNITY
+
+div.community-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+div.community-text > h3 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  color: $d_grey;
+}
+
+div.community-text > p {
+  color: $grey;
+  font-size: 13px;
+}
+
+div.community-frame {
+  margin-top: 16px;
+  display: flex;
+  padding: 4px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+div.community-frame > div {
+  width: 210px;
+  height: 185px;
+  padding: 18px;
+}
+
+div.community-frame > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+div.community-frame > div > div > img {
+  width: 55px;
+  height: 45px;
+}
+
+div.community-frame > div > div > h3 {
+  font-size: 22px;
+  width: 160px;
+  font-weight: bold;
+  text-align: center;
+  color: $d_grey;
+}
+
+div.community-frame > div > p {
+  color: $grey;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+// UNLOCK
+div.unlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 125px;
+  align-items: center;
+}
+
+div.unlock > div {
+  width: 410px;
+}
+
+div.unlock > div > h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: $d_grey;
+}
+
+div.unlock > div > p {
+  color: $grey;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+// ACHIEVEMENTS
+div.achievements {
+  display: flex;
+  flex-direction: row;
+  background-color: $bg;
+  padding: 90px 0px;
+  padding-left: 75px;
+}
+
+div.achievements-title {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+div.achievements-title > h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: $d_grey;
+}
+
+div.achievements-title > h3 > span {
+  color: $primary;
+  display: block;
+  margin-top: 6px;
+}
+
+div.achievements-title > p {
+  color: $grey;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+div.achievements-counts {
+  box-sizing: border-box;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+div.count {
+  display: flex;
+  gap: 16px;
+  margin: 24px 0;
+  padding-left: 65px;
+  box-sizing: border-box;
+  width: max-content;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+div.count > div > h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: $d_grey;
+}
+
+div.count > div > p {
+  color: $grey;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+// CALENDER
+
+div.calender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 45px 0;
+  gap: 120px;
+}
+
+div.calender-text {
+  width: 450px;
+}
+
+div.calender-text > h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: $d_grey;
+}
+
+div.calender-text > p {
+  color: $grey;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 16px 0;
+}
+
+// CUSTOMERS
+
+div.customers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 45px;
+  padding: 45px 0;
+  background-color: $bg;
+}
+
+div.customers-text {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.customers > div.customers-text {
+  width: 550px;
+}
+
+div.customers-text > p.p-1 {
+  color: $grey;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+div.customers-text > h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: $primary;
+}
+
+div.customers-text > p.p-2 {
+  color: $grey;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+div.customers-clients {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+div.customers-clients > h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: $primary;
+  cursor: pointer;
+}
+
+// COMMUNITY UPDATES
+div.community-updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 120px;
+}
+
+div.community-updates > h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: $d_grey;
+}
+
+div.community-updates > p {
+  width: 35%;
+  color: $grey;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 12px 0;
+}
+
+div.community-updates-frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 125px 24px;
+}
+
+div.community-updates-frame > div {
+  position: relative;
+  z-index: -2;
+}
+
+div.community-updates-card {
+  width: 220px;
+  height: 122px;
+  position: absolute;
+  top: 135px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $bg;
+  border-radius: 8px;
+  box-shadow: 0px 0px 32px 1px $black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+div.community-updates-card > h4 {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: $grey;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0 6px;
+  flex: 50%;
+}
+
+div.community-updates-card > h5 {
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: $primary;
+  cursor: pointer;
+  flex: 20%;
+  margin-bottom: 8px;
 }
 
 /* CSS reset */
