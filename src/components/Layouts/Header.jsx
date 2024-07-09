@@ -3,7 +3,9 @@ export const Header = () => {
     <>
       <div className="container">
         <div className="header">
-          <div className="logo"></div>
+          <div className="logo">
+            <img src="Logo.png" />
+          </div>
           <div className="menu">
             <ul className="navbar">
               <li>Home</li>
