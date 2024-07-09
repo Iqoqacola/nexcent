@@ -3,7 +3,7 @@ export const Unlock = () => {
     <>
       <div className="container">
         <div className="unlock">
-          <img src="/public/UnlockImage.png" />
+          <img src="UnlockImage.png" />
           <div className="unlock-text">
             <h3>The unseen of spending three years at Pixelgrade</h3>
             <p>

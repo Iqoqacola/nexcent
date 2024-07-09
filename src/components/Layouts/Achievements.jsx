@@ -1,9 +1,9 @@
 export const Achievements = () => {
   const achievementsData = [
-    ["/public/AchievementsCount1.png", "2,245,341", "Members"],
-    ["/public/AchievementsCount2.png", "46,328", "Clubs"],
-    ["/public/AchievementsCount3.png", "828,867", "Event Bookings"],
-    ["/public/AchievementsCount4.png", "1,926,436", "Payments"],
+    ["AchievementsCount1.png", "2,245,341", "Members"],
+    ["AchievementsCount2.png", "46,328", "Clubs"],
+    ["AchievementsCount3.png", "828,867", "Event Bookings"],
+    ["AchievementsCount4.png", "1,926,436", "Payments"],
   ];
   return (
     <>

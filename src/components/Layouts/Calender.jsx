@@ -3,7 +3,7 @@ export const Calender = () => {
     <>
       <div className="container">
         <div className="calender">
-          <img src="/public/CalenderImage.png" />
+          <img src="CalenderImage.png" />
           <div className="calender-text">
             <h3>How to design your site footer like we did</h3>
             <p>

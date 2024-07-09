@@ -1,11 +1,11 @@
 export const Clients = () => {
   const clientsLogo = [
-    "/public/LogoClient1.png",
-    "/public/LogoClient2.png",
-    "/public/LogoClient3.png",
-    "/public/LogoClient4.png",
-    "/public/LogoClient5.png",
-    "/public/LogoClient6.png",
+    "LogoClient1.png",
+    "LogoClient2.png",
+    "LogoClient3.png",
+    "LogoClient4.png",
+    "LogoClient5.png",
+    "LogoClient6.png",
   ];
   return (
     <>

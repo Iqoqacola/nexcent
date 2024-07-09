@@ -1,17 +1,17 @@
 export const Community = () => {
   const communityIcon = [
     [
-      "/public/IconCommunity1.png",
+      "IconCommunity1.png",
       "Membership Organisations",
       "Our membership management software provides full automation of membership renewals and payments",
     ],
     [
-      "/public/IconCommunity2.png",
+      "IconCommunity2.png",
       "National Associations",
       "Our membership management software provides full automation of membership renewals and payments",
     ],
     [
-      "/public/IconCommunity3.png",
+      "IconCommunity3.png",
       "Clubs And Groups",
       "Our membership management software provides full automation of membership renewals and payments",
     ],

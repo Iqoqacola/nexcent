@@ -1,15 +1,15 @@
 export const CommunityUpdates = () => {
   const CommunityUpdatesData = [
     [
-      "/public/CommunityUpdatesImage1.png",
+      "CommunityUpdatesImage1.png",
       "Creating Streamlined Safeguarding Processes with OneRen",
     ],
     [
-      "/public/CommunityUpdatesImage2.png",
+      "CommunityUpdatesImage2.png",
       "What are your safeguarding responsibilities and how can you manage them?",
     ],
     [
-      "/public/CommunityUpdatesImage3.png",
+      "CommunityUpdatesImage3.png",
       "Revamping the Membership Model with Triathlon Australia",
     ],
   ];
