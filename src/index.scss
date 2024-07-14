@@ -271,6 +271,7 @@ div.achievements {
   background-color: $bg;
   padding: 90px 0px;
   padding-left: 75px;
+  box-sizing: border-box;
 }
 
 div.achievements-title {
@@ -372,7 +373,6 @@ div.customers {
 }
 
 div.customers-text {
-  padding: 0 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -405,8 +405,11 @@ div.customers-text > p.p-2 {
 div.customers-clients {
   margin-top: 16px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 28px;
+  box-sizing: border-box;
+  padding: 12px;
 }
 
 div.customers-clients > h5 {
@@ -421,7 +424,7 @@ div.community-updates {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 45px;
+  padding-top: 35px;
   padding-bottom: 120px;
 }
 
@@ -487,6 +490,225 @@ div.community-updates-card > h5 {
   cursor: pointer;
   flex: 20%;
   margin-bottom: 8px;
+}
+
+// FOOTER
+div.footer-frame-1 {
+  width: 100%;
+  background-color: $bg;
+  padding: 35px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.footer-frame-1 > h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  color: $black;
+}
+
+div.footer-frame-2 {
+  width: 100%;
+  background-color: $black;
+  padding: 65px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  gap: 245px;
+}
+
+div.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+div.company-info > img {
+  width: fit-content;
+  height: fit-content;
+}
+
+div.company-info > div > p {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+div.social-icon-footer > img {
+  width: fit-content;
+  height: fit-content;
+}
+
+div.links-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+div.link-footer > h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+div.link-footer > ul {
+  margin: 26px 0;
+}
+
+div.link-footer > ul > li {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+div.link-footer > input {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 26px 0;
+  padding: 12px;
+  background-color: #515b60;
+  color: #d9dbe1;
+  border: none;
+  border-radius: 6px;
+}
+
+div.link-footer > input::placeholder {
+  color: #d9dbe1;
+}
+
+// MEDIA QUERY
+@media (max-width: 768px) {
+  // HEADER
+  div.header {
+    display: none;
+  }
+
+  // HERO
+  div.hero {
+    flex-direction: column-reverse;
+  }
+
+  div.hero > div.frame {
+    width: 100%;
+    padding: 24px;
+  }
+
+  div.frame > h1 {
+    font-size: 26px;
+  }
+
+  // ACHIEVEMENTS
+  div.achievements {
+    display: block;
+    padding: 45px 0;
+    padding-left: 0;
+  }
+
+  div.achievements-title {
+    width: 100%;
+  }
+
+  div.achievements-counts {
+    width: 100%;
+  }
+
+  div.count {
+    display: flex;
+    gap: 16px;
+    margin: 24px 0;
+    padding-left: 65px;
+    box-sizing: border-box;
+    width: max-content;
+    flex-wrap: wrap;
+    width: 45%;
+  }
+
+  div.count > div > h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: $d_grey;
+  }
+
+  div.count > div > p {
+    color: $grey;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  //CLIENTS
+  div.clients > p {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  // COMMUNITY
+  div.community-text > h3 {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 6px;
+    font-size: 22px;
+  }
+
+  // CUSTOMERS
+  div.customers-text {
+    box-sizing: border-box;
+    padding: 0 8px;
+    padding: 24px;
+  }
+
+  // UNLOCK
+  div.unlock {
+    gap: 0;
+  }
+
+  div.unlock-text {
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  // CALENDER
+  div.calender {
+    gap: 32px;
+  }
+
+  div.calender-text {
+    width: 450px;
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  // COMMUNITY UPDATES
+  div.community-updates > p {
+    width: 100%;
+    color: $grey;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px 0;
+  }
+
+  // FOOTER
+  div.footer-frame-1 > h2 {
+    font-size: 22px;
+  }
+
+  div.footer-frame-2 {
+    flex-direction: column;
+    padding-left: 24px;
+    gap: 32px;
+  }
+
+  div.link-footer > ul {
+    margin: 0;
+  }
 }
 
 /* CSS reset */

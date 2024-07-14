@@ -7,6 +7,7 @@ import { Achievements } from "../Layouts/Achievements";
 import { Calender } from "../Layouts/Calender";
 import { Customers } from "../Layouts/Customers";
 import { CommunityUpdates } from "../Layouts/CommunityUpdates";
+import { Footer } from "../Layouts/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Customers></Customers>
       <CommunityUpdates></CommunityUpdates>
       {/* FOOTER */}
+      <Footer></Footer>
     </>
   );
 }
