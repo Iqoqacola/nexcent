@@ -13,52 +13,28 @@ Nexcent is a simple landing page example built to showcase a clean and modern we
 
 ---
 
-## 📦 Installation
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/username/nexcent.git
+git clone https://github.com/iqoqacola/nexcent.git
 ```
 
-### 2. Go to the project folder
-
-```bash
-cd nexcent
-```
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
----
-
-## ▶️ Running the Project
-
-### Development Mode (Hot Reload)
+### 3. Run development server
 
 ```bash
 npm run dev
 ```
 
-Runs the app on a local development server with hot reload enabled.
-
----
-
-### Production Build
+### 4. Build for production
 
 ```bash
 npm run build
-```
-
-Generates an optimized production-ready build.
-
----
-
-### Preview Production Build
-
-```bash
-npm run preview
 ```
